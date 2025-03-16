@@ -18,7 +18,6 @@ public class DemoApplication {
 class HelloController {
     @GetMapping("/hello")
     public String sayHello() {
-        return "Hello from Azure App Service!";
+        return "Hello from Azure App Service running Java 11!";
     }
 }
-
